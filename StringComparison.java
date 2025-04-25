@@ -7,14 +7,13 @@
  */
 public class StringComparison
 {
-
     /**
      * An example of a method - replace this comment with your own
      *
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public int sampleMethod(int y)
+    public void stringComparison()
     {
         //24a
         String string1 = "hello ilsa";
@@ -26,5 +25,6 @@ public class StringComparison
         else{
             System.out.println("The strings are not equal");//24c
         }
+        
     }
 }
