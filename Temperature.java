@@ -1,6 +1,15 @@
 import java.util.ArrayList;
 import java.util.Collections;
-
+// /**
+ // * Write a description of class Temperature here.
+ // *
+ // * @author (your name)
+ // * @version (a version number or a date)
+ // */
+// public class Temperature{
+    // ArrayList<Double> temperatures = new ArrayList<Doubble>();    //25
+    
+// }
 /**
  * Write a description of class Temperature here.
  *
@@ -34,10 +43,7 @@ public class Temperature{
     //27
     public void printMaxTemperatureSorted(ArrayList<Double> temperatures){
         Collections.sort(temperatures);
-        double maxTemperature = Collections.sort(temperatures);
-        System.out.println("Maximum temperature:" + maxTemperature);
-        
-        
-        
+        System.out.println("Maximum temperature:" + temperatures.getLast());
+           
     }
 }
